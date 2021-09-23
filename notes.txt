@@ -1,0 +1,104 @@
+Let's try to keep all of you information separate. Use the ideas.txt for ideas and use notes.txt for notes.
+
+********************************************************
+Requirements for Portfolio Page 
+
+Headshot
+Name
+Navigation 
+About
+Projects
+Contact
+Bio Section
+Project Section
+Screenshots of Projects
+Link to code
+Contact Section
+Link to Github
+Link to Social Media
+Link to Email
+Link for Freecodecamp
+
+Check-Ins
+	Sept 24
+	Oct 1
+	Oct 8
+
+Presentations: October 12-14
+*********************************************************
+
+NavBar:
+Home | About | Projects | Random
+- hover function, links to new pages, etc. [DONE]
+
+COLOR PALETTE (RGB)
+244, 241, 222
+224, 122, 95
+61, 64, 91
+129, 178, 154
+242, 204, 143
+
+**New idea. Going to go with a synthwave idea. Let's start with the color palette**
+dark sky: #3f005d
+sky: #4a0061
+stars: #a652aa
+sun border: #8f0a3f
+top sun: #ffb629
+sun haze: #ff219e
+horizon: #ff219e
+deepspacesparkle: #4e6a73
+
+**COLOR PALETTE FOR SUNSET**
+#EA698B
+#D55D92
+#C05299
+#AC46A1
+#973AA8
+#822FAF
+#6D23B6
+#6411AD
+#571089
+#47126B
+
+KEYFRAME ANIMATION
+animation: myAnim 2s ease 0s infinite normal forwards;
+
+@keyframes myAnim {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+SUNSET BACKGROUND CSS 
+background: hsla(344, 75%, 66%, 1);
+
+background: linear-gradient(360deg, hsla(344, 75%, 66%, 1) 0%, hsla(334, 59%, 60%, 1) 9%, hsla(321, 47%, 54%, 1) 19%, hsla(306, 42%, 47%, 1) 31%, hsla(291, 49%, 44%, 1) 42%, hsla(279, 58%, 44%, 1) 54%, hsla(270, 68%, 43%, 1) 64%, hsla(272, 82%, 37%, 1) 75%, hsla(275, 79%, 30%, 1) 87%, hsla(276, 71%, 25%, 1) 97%);
+
+background: -moz-linear-gradient(360deg, hsla(344, 75%, 66%, 1) 0%, hsla(334, 59%, 60%, 1) 9%, hsla(321, 47%, 54%, 1) 19%, hsla(306, 42%, 47%, 1) 31%, hsla(291, 49%, 44%, 1) 42%, hsla(279, 58%, 44%, 1) 54%, hsla(270, 68%, 43%, 1) 64%, hsla(272, 82%, 37%, 1) 75%, hsla(275, 79%, 30%, 1) 87%, hsla(276, 71%, 25%, 1) 97%);
+
+background: -webkit-linear-gradient(360deg, hsla(344, 75%, 66%, 1) 0%, hsla(334, 59%, 60%, 1) 9%, hsla(321, 47%, 54%, 1) 19%, hsla(306, 42%, 47%, 1) 31%, hsla(291, 49%, 44%, 1) 42%, hsla(279, 58%, 44%, 1) 54%, hsla(270, 68%, 43%, 1) 64%, hsla(272, 82%, 37%, 1) 75%, hsla(275, 79%, 30%, 1) 87%, hsla(276, 71%, 25%, 1) 97%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ea698b", endColorstr="#d55d92", GradientType=1 );
+
+
+SUN 
+background: hsla(33, 94%, 57%, 1);
+
+background: radial-gradient(circle, hsla(33, 94%, 57%, 1) 28%, hsla(333, 100%, 53%, 1) 50%);
+
+background: -moz-radial-gradient(circle, hsla(33, 94%, 57%, 1) 28%, hsla(333, 100%, 53%, 1) 50%);
+
+background: -webkit-radial-gradient(circle, hsla(33, 94%, 57%, 1) 28%, hsla(333, 100%, 53%, 1) 50%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f89b29", endColorstr="#ff0f7b", GradientType=1 );
+
+
+save this for the future
+

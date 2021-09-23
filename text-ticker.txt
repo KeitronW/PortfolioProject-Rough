@@ -1,0 +1,5 @@
+@keyframes
+
+infinite repetition
+
+exceed viewport window 
