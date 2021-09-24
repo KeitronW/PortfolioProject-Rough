@@ -102,3 +102,23 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f89b29", en
 
 save this for the future
 
+Spinner code from Bootstrap (not sure why i would use it but i have the code for it)
+<div class="spinner-border" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+
+
+
+*******ICOMOON ICONS*******
+freecodecamp 
+codepen
+twitter
+linkedin
+reddit
+phone
+Email
+html
+CSS
+github
+git 
+python

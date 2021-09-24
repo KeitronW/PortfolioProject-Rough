@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* HEADER */
+.top-nav-section {
+	background: #2B3035;
+}
+.top-nav-bar-item {
+	font-size: 25px;
+	
+}
+.nav-bar-link {
+	color: gray;
+	text-decoration: none;
+}
+.nav-bar-link:hover {
+	color:hsla(334, 59%, 60%);
+	transition: 1.5s ease;
+}
+/* CLOSE HEADER */
+/* MAIN */
+.project-image {
+    width: 30rem;
+}
+/* CLOSE MAIN */
+/* FOOTER */
+.footer {
+	background-color: #2B3035;
+}
+/* CLOSE FOOTER */

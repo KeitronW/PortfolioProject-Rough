@@ -66,3 +66,56 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+
+***************************************************
+ProjectsPage Card Section
+<div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                    <div class="card project-body">
+                        <h3 class="card-title">Detroix</h3>
+                        <img src="media/detroixScreenshot-rough.png" class="card-img-top img-fluid" alt="Detroix screenshot">
+                        <div class="card-body">
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card project-body">
+                        <h3 class="card-title">Bloom</h3>
+                        <img src="media/bloomScreenshot-rough.png" class="card-img-top img-fluid" alt="Bloom screenshot">
+                        <div class="card-body">
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card project-body">
+                        <h3 class="card-title">Venedor</h3>
+                        <img src="media/venedorScreenshot-rough.png" class="card-img-top img-fluid" alt="Venedor screenshot">
+                        <div class="card-body">
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card project-body">
+                        <h3 class="card-title">Umbrella</h3>
+                        <img src="media/umbrellaScreenshot-rough.png" class="card-img-top img-fluid" alt="Umbrella screenshot">
+                        <div class="card-body">
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card project-body">
+                        <h3 class="card-title">Restaurant</h3>
+                        <img src="media/restaurantScreenshot-rough.png" class="card-img-top img-fluid" alt="Restaurant screenshot">
+                        <div class="card-body">
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

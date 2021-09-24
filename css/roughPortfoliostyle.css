@@ -10,6 +10,7 @@ body {
 	background: linear-gradient(360deg, hsla(344, 75%, 66%, 1) 0%, hsla(334, 59%, 60%, 1) 9%, hsla(321, 47%, 54%, 1) 19%, hsla(306, 42%, 47%, 1) 31%, hsla(291, 49%, 44%, 1) 42%, hsla(279, 58%, 44%, 1) 54%, hsla(270, 68%, 43%, 1) 64%, hsla(272, 82%, 37%, 1) 75%, hsla(275, 79%, 30%, 1) 87%, hsla(276, 71%, 25%, 1) 97%);
 	height: 500px;
 	position: relative;
+	width: 100%;
 }
 /* .starBackground {
 	background: linear-gradient(360deg, hsla(344, 75%, 66%, 1) 0%, hsla(334, 59%, 60%, 1) 9%, hsla(321, 47%, 54%, 1) 19%, hsla(306, 42%, 47%, 1) 31%, hsla(291, 49%, 44%, 1) 42%, hsla(279, 58%, 44%, 1) 54%, hsla(270, 68%, 43%, 1) 64%, hsla(272, 82%, 37%, 1) 75%, hsla(275, 79%, 30%, 1) 87%, hsla(276, 71%, 25%, 1) 97%);
@@ -278,16 +279,18 @@ body {
 
 /* inserting sun here */
 .sun {
-  height: 400px;
-  width: 400px;
-  border: 1px solid orange;
-  background-image: radial-gradient(circle, hsla(33, 94%, 57%, 1) 35%, hsla(333, 100%, 53%, 1) 100%);;
-  border-radius: 50%;
+  	height: 400px;
+  	width: 100%;
+	max-width: 400px;
+  	border: 1px solid orange;
+  	background-image: radial-gradient(circle, hsla(33, 94%, 57%, 1) 35%, hsla(333, 100%, 53%, 1) 100%);;
+  	border-radius: 50%;
+	  margin: 0 auto;
 	position: absolute;
 	top: 30%;
 	left: 33%;
 	z-index: 3;
-	animation-name:sundown;
+	animation-name: sundown;
 	animation-duration: 4s;
 	animation-iteration-count: once;
 }
@@ -351,7 +354,7 @@ body {
 }
 
 .measure-line {
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	height: 10px;
 	width: 1280px;
 }
@@ -373,14 +376,47 @@ body {
 	transition: 1.5s ease;
 }
 .about-section {
-	background: whitesmoke;
+	background: #468FAF;
 	position: relative;
 	z-index: 4;
 }
 /* CLOSE HEADER */
 
 /* MAIN */
+.screenshot-box {
+	border: 3px solid red;
+	margin: 10px;
+}
+.project-section1 {
+	background-color: #2A6F97;
+}
+.project-section1 h2, .project-section1 p {
+	color: #EBE9E9;
+}
+.project-section2 {
+	background-color: #2A6F97;
+}
+.project-section2 h2, .project-section2 p {
+	color: whitesmoke;
+}
+
+.project-row1, .project-row2, .project-row3, .project-row4 {
+	border-bottom: 1px solid silver;
+	margin-top: 30px;
+}
+.project-row5 {
+	margin-top: 30px;
+}
 /* CLOSE MAIN */
 
 /* FOOTER */
+.footer {
+	background-color: #2B3035;
+}
+.colophon {
+	color: #EBE9E9;
+}
 /* CLOSE FOOTER */
+
+/* ************************************************************************************************ */
+/* Projects Page */
