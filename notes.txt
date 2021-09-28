@@ -60,6 +60,65 @@ deepspacesparkle: #4e6a73
 #571089
 #47126B
 
+
+********************************************************************************
+code for the old bars stored here
+
+
+.bars {
+/* going to make bars 1,3 slidein left; bars 2,4 slidein right	 */
+	border: 1px solid gray;
+	border-radius: 20px;
+	height: 20px;
+	background-color: #9bf8f4;
+	animation-duration: 30s;
+/*    animation-name: slidein; */
+   animation-iteration-count: once;
+}
+#bar1 {
+	animation-name: slideinLeft;
+	width: 475px;
+	position: absolute;
+	top: 250px;
+	left: 900px;
+	background-color: green;
+}
+#bar2 {
+	animation-name: slideinRight;
+	width: 550px;
+	position: absolute;
+	top: 180px;
+	left: 27%;	
+}
+#bar3 {
+	animation-name: slideinLeft;
+	width: 625px;
+	position: absolute;
+	top: 120px;
+	left: 24%;
+}
+#bar4 {
+	animation-name: slideinRight;
+	width: 700px;
+	position: absolute;
+	top: 70px;
+	left: 21%;
+}
+@keyframes slideinLeft {
+	0% {
+		left: -800px;
+		opacity: 0;
+	}
+  }
+@keyframes slideinRight {
+	0% {
+		left: 1300px;
+		opacity: 0;
+	}
+}
+
+**********************************************************************************
+
 KEYFRAME ANIMATION
 animation: myAnim 2s ease 0s infinite normal forwards;
 

@@ -294,59 +294,193 @@ body {
 	animation-duration: 4s;
 	animation-iteration-count: once;
 }
-
+/* ****************************************************************************
+cloud animation */
 .bars {
-/* going to make bars 1,3 slidein left; bars 2,4 slidein right	 */
-	border: 1px solid gray;
-	border-radius: 20px;
-	height: 20px;
-	background-color: #9bf8f4;
-	animation-duration: 30s;
-/*    animation-name: slidein; */
-   animation-iteration-count: once;
+    border: 1px solid #9bf8f4;
+    border-radius: 20px;
+    height: 10px;
+    width: 40px;
+    background-color: #9bf8f4;
+    position: absolute;
+}
+/* Cloud1 */
+.cloud1 {
+    position: relative;
+    top: 40px;
+    left: 800px;
+    animation-name: slideinLeft;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    width: fit-content;
 }
 #bar1 {
-	animation-name: slideinLeft;
-	width: 475px;
-	position: absolute;
-	top: 250px;
-	left: 900px;
-	background-color: green;
+    width: 100px;
+    top: 30px;
 }
 #bar2 {
-	animation-name: slideinRight;
-	width: 550px;
-	position: absolute;
-	top: 180px;
-	left: 27%;	
+    width: 125px;
+    top: 50px;
+    left: 70px;
 }
 #bar3 {
-	animation-name: slideinLeft;
-	width: 625px;
-	position: absolute;
-	top: 120px;
-	left: 24%;
+    width: 90px;
+    top: 40px;
+    left: 25px;
 }
 #bar4 {
-	animation-name: slideinRight;
-	width: 700px;
-	position: absolute;
-	top: 70px;
-	left: 21%;
+    width: 100px;
+    top: 60px;
+    left: 25px;
 }
+#bar5 {
+    width: 10px;
+}
+
+/* Cloud2 */
+.cloud2 {
+    position: relative;
+    top: 200px;
+    left: 200px;
+    width: fit-content;
+    animation-iteration-count: infinite;
+    animation-name: slideinRight;
+    animation-duration: 40s;
+	z-index: 4;
+}
+#bar6 {
+    width: 400px;
+    top: 30px;
+}
+#bar7 {
+    width: 250px;
+    top: 40px;
+    left: 100px;
+}
+#bar8 {
+    width: 80px;
+    top: 50px;
+    left: 80px;
+}
+#bar9 {
+    top: 55px;
+    left: 250px;
+    width: 10px;
+}
+/* Cloud3 */
+.cloud3 {
+    position: relative;
+    top: 350px;
+    width: fit-content;
+}
+#bar10 {
+    width: 300px;
+    left: 100px;
+}
+#bar11 {
+    width: 50px;
+    top: 10px;
+    left: 150px;
+}
+#bar12 {
+    width: 280px;
+    top: 18px;
+    left: 70px;
+}
+/* Cloud4 */
+.cloud4 {
+    position: relative;
+    top: 450px;
+    width: fit-content;
+}
+#bar13 {
+    width: 260px;
+}
+#bar14 {
+    width: 30px;
+    top: 10px;
+    left: 160px;
+}
+#bar15 {
+    width: 200px;
+    top: 20px;
+    left: 100px;
+}
+#bar16 {
+    width: 25px;
+    top: 30px;
+    left: 220px;
+}
+#bar17 {
+    width: 220px;
+    top: 40px;
+    left: 200px;
+}
+/* CLoud5 */
+.cloud5 {
+    position: relative;
+    width:fit-content;
+}
+#bar18 {
+    top: 550px;
+    width: 400px;
+    left: 100px;
+}
+#bar19 {
+    top: 580px;
+    width: 10px;
+    left: 600px;
+}
+#bar20 {
+    top: 600px;
+    width: 260px;
+    left: 140px;
+}
+#bar21 {
+    top: 610px;
+    left: 250px;
+}
+#bar22 {
+    top: 620px;
+    left: 90px;
+    width: 230px;
+}
+
+/* ANIMATION AREA */
+
 @keyframes slideinLeft {
 	0% {
-		left: -800px;
+        left: -200px;
 		opacity: 0;
 	}
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
   }
 @keyframes slideinRight {
 	0% {
-		left: 1300px;
+        left: 1000px;
 		opacity: 0;
 	}
+    15% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
-
 @keyframes sundown {
 	0% {
 		top: -800px;

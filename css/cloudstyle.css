@@ -1,3 +1,4 @@
+/* 9/27 ok. so the clouds work just fine. i think i have figured out the kinks in my code so i should be able to slide these little bitches into my rough portfolio html.... hopefully */
 .bars {
     border: 1px solid #9bf8f4;
     border-radius: 20px;
@@ -10,7 +11,12 @@
 .cloud1 {
     position: relative;
     top: 40px;
-    left: 50px;
+    left: 800px;
+    animation-name: slideinLeft;
+    animation-duration: 40s;
+    animation-iteration-count: once;
+    border: 1px solid red;
+    width: fit-content;
 }
 #bar1 {
     width: 100px;
@@ -19,7 +25,7 @@
 #bar2 {
     width: 125px;
     top: 50px;
-    left: 20px;
+    left: 70px;
 }
 #bar3 {
     width: 90px;
@@ -29,9 +35,10 @@
 #bar4 {
     width: 100px;
     top: 60px;
+    left: 25px;
 }
 #bar5 {
-    width: 40px;
+    width: 10px;
 }
 
 /* Cloud2 */
@@ -39,6 +46,11 @@
     position: relative;
     top: 200px;
     left: 200px;
+    border: 1px solid red;
+    width: fit-content;
+    animation-iteration-count: infinite;
+    animation-name: slideinRight;
+    animation-duration: 20s;
 }
 #bar6 {
     width: 400px;
@@ -46,26 +58,28 @@
 }
 #bar7 {
     width: 250px;
-    top: 35px;
-    left: 50px;
+    top: 40px;
+    left: 100px;
 }
 #bar8 {
     width: 80px;
-    top: 40px;
+    top: 50px;
     left: 80px;
 }
 #bar9 {
-    top: 45px;
-    left: 80px;
+    top: 55px;
+    left: 250px;
+    width: 10px;
 }
 /* Cloud3 */
 .cloud3 {
     position: relative;
     top: 350px;
+    width: fit-content;
 }
 #bar10 {
     width: 300px;
-
+    left: 100px;
 }
 #bar11 {
     width: 50px;
@@ -81,8 +95,93 @@
 .cloud4 {
     position: relative;
     top: 450px;
+    width: fit-content;
 }
 #bar13 {
-    width: 60px;
+    width: 260px;
+}
+#bar14 {
+    width: 30px;
+    top: 10px;
+    left: 160px;
+}
+#bar15 {
+    width: 200px;
+    top: 20px;
+    left: 100px;
+}
+#bar16 {
+    width: 25px;
+    top: 30px;
+    left: 220px;
+}
+#bar17 {
+    width: 220px;
+    top: 40px;
+    left: 200px;
 }
 /* CLoud5 */
+.cloud5 {
+    position: relative;
+    width:fit-content;
+}
+#bar18 {
+    top: 550px;
+    width: 400px;
+    left: 100px;
+}
+#bar19 {
+    top: 580px;
+    width: 10px;
+    left: 600px;
+}
+#bar20 {
+    top: 600px;
+    width: 260px;
+    left: 140px;
+}
+#bar21 {
+    top: 610px;
+    left: 250px;
+}
+#bar22 {
+    top: 620px;
+    left: 90px;
+    width: 230px;
+}
+
+/* ANIMATION AREA */
+
+@keyframes slideinLeft {
+	0% {
+        left: -200px;
+		opacity: 0;
+	}
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+@keyframes slideinRight {
+	0% {
+        left: 1000px;
+		opacity: 0;
+	}
+    15% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
