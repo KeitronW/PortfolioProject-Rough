@@ -25,12 +25,73 @@ body {
 }
 /* CLOSE HEADER */
 /* MAIN */
-.project-image {
-    max-width: 100%;
+.projects-section {
+	background-color: rgb(27, 21, 110);
 }
+.screenshot{
+	width: 20rem;
+	height: 20rem;
+	max-width: 100%;
+}
+.screenshot-box {
+	border: 2px solid silver;
+	margin: 10px;
+}
+.screenshot-box:hover {
+	opacity: 85%;
+	border-width: 10px;
+	border-style: inset;
+	transition: .5s ease-in;
+}
+/* @media (max-width: 577px) {
+	.screenshot{
+		width: 25rem;
+		height: 25rem;
+	}
+	.card-body {
+		
+	}
+} */
+
 /* CLOSE MAIN */
 /* FOOTER */
 .footer {
 	background-color: #2B3035;
 }
 /* CLOSE FOOTER */
+.social-list {
+	padding-top: 40px;
+}
+.icon-github, .icon-linkedin, .icon-twitter, .icon-free-code-camp, .icon-reddit {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	color: gray;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+}
+.nav-link:hover {
+	color:hsla(334, 59%, 60%);
+	transition: 1.5s ease;
+}
+/* .icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+  }
+   */
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+	font-size: 32px;
+	color: red;
+  }
+  ========================================== */
+/*   
+  .icon-free-code-camp {
+	width: 1.2861328125em;
+  } */

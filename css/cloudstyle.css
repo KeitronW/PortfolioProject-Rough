@@ -95,7 +95,9 @@
 .cloud4 {
     position: relative;
     top: 450px;
-    width: fit-content;
+    width: 20px;
+    left: 50px;
+    border: 1px solid red;
 }
 #bar13 {
     width: 260px;
@@ -103,11 +105,10 @@
 #bar14 {
     width: 30px;
     top: 10px;
-    left: 160px;
 }
 #bar15 {
     width: 200px;
-    top: 20px;
+    top: 18px;
     left: 100px;
 }
 #bar16 {
@@ -169,7 +170,7 @@
   }
 @keyframes slideinRight {
 	0% {
-        left: 1000px;
+        left: 900px;
 		opacity: 0;
 	}
     15% {

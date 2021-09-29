@@ -6,6 +6,8 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+
 .sunset-section {
 	background: linear-gradient(360deg, hsla(344, 75%, 66%, 1) 0%, hsla(334, 59%, 60%, 1) 9%, hsla(321, 47%, 54%, 1) 19%, hsla(306, 42%, 47%, 1) 31%, hsla(291, 49%, 44%, 1) 42%, hsla(279, 58%, 44%, 1) 54%, hsla(270, 68%, 43%, 1) 64%, hsla(272, 82%, 37%, 1) 75%, hsla(275, 79%, 30%, 1) 87%, hsla(276, 71%, 25%, 1) 97%);
 	height: 500px;
@@ -17,13 +19,120 @@ body {
 	height: 500px;
 	position: relative;
 } */
-.myAnim {
+.myAnim1 {
     border: 1px solid grey;
     background-color: #c0fdff;
     height: 4px;
     width: 4px;
-    animation: myAnim 3s ease 0s infinite normal forwards;
+    animation: myAnim1 3s ease 0s infinite normal forwards;
 	position: absolute;
+}
+@keyframes myAnim1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+.myAnim2 {
+    border: 1px solid grey;
+    background-color: #c0fdff;
+    height: 3px;
+    width: 3px;
+    animation: myAnim2 3.1s ease 0s infinite normal forwards;
+	position: absolute;
+}
+@keyframes myAnim2 {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+.myAnim3 {
+    border: 1px solid grey;
+    background-color: #c0fdff;
+    height: 4px;
+    width: 4px;
+    animation: myAnim3 3.2s ease 0s infinite normal forwards;
+	position: absolute;
+}
+@keyframes myAnim3 {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+.myAnim4 {
+    border: 1px solid grey;
+    background-color: #c0fdff;
+    height: 4px;
+    width: 4px;
+    animation: myAnim4 3.3s ease 0s infinite normal forwards;
+	position: absolute;
+}
+@keyframes myAnim4 {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+.myAnim5 {
+    border: 1px solid grey;
+    background-color: #a6fafd;
+    height: 3px;
+    width: 3px;
+    animation: myAnim5 3.4s ease 0s infinite normal forwards;
+	position: absolute;
+}
+@keyframes myAnim5 {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+.myAnim6 {
+    border: 1px solid grey;
+    background-color: #dcf581;
+    height: 5px;
+    width: 5px;
+    animation: myAnim6 3.5s ease 0s infinite normal forwards;
+	position: absolute;
+}
+@keyframes myAnim6 {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+	25%,
+	75% {
+		opacity: 0;
+	}
 }
 /* don't forget your random number generator */
 #star1 {
@@ -264,18 +373,8 @@ body {
 }
 
 
-@keyframes myAnim {
-    0%,
-    50%,
-    100% {
-      opacity: 1;
-    }
-  
-    25%,
-    75% {
-      opacity: 0;
-    }
-  }
+
+
 
 /* inserting sun here */
 .sun {
@@ -288,7 +387,7 @@ body {
 	margin: 0 auto;
 	position: absolute;
 	top: 150px;
-	left: 33%;
+	left: 35%;
 	z-index: 3;
 	animation-name: sundown;
 	animation-duration: 4s;
@@ -304,6 +403,7 @@ cloud animation */
     background-color: #9bf8f4;
     position: absolute;
 }
+
 /* Cloud1 */
 .cloud1 {
     position: relative;
@@ -371,7 +471,7 @@ cloud animation */
 .cloud3 {
     position: relative;
     top: 250px;
-	left: 700px;
+	left: 600px;
     width: fit-content;
 	animation-name: slideinLeft;
     animation-duration: 50s;
@@ -399,12 +499,13 @@ cloud animation */
 	left: 0;
     width: fit-content;
 	animation-name: slideinRight;
-	animation-duration: 27s;
+	animation-duration: 35s;
 	animation-iteration-count: infinite;
 	z-index: 4;
 }
 #bar13 {
     width: 260px;
+	top: 2px;
 }
 #bar14 {
     width: 30px;
@@ -413,48 +514,46 @@ cloud animation */
 }
 #bar15 {
     width: 200px;
-    top: 20px;
+    top: 18px;
     left: 100px;
 }
 #bar16 {
     width: 25px;
-    top: 30px;
+    top: 26px;
     left: 220px;
 }
 #bar17 {
     width: 220px;
-    top: 40px;
+    top: 35px;
     left: 200px;
 }
 /* CLoud5 */
 .cloud5 {
+	animation-name: slideinLeft2;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
     position: relative;
     width:fit-content;
-	top: 200px;
+	top: 100px;
+	left: 700px;
+
 }
 #bar18 {
-    top: 550px;
-    width: 400px;
-    left: 100px;
+	width: 300px;
 }
 #bar19 {
-    top: 580px;
-    width: 10px;
-    left: 600px;
+	left: 70px;
+	width: 140px;
+	top: 20px;
 }
 #bar20 {
-    top: 600px;
-    width: 260px;
-    left: 140px;
+	left: 200px;
+	width: 80px;
+	top: 10px;
 }
 #bar21 {
-    top: 610px;
-    left: 250px;
 }
 #bar22 {
-    top: 620px;
-    left: 90px;
-    width: 230px;
 }
 
 /* ANIMATION AREA */
@@ -465,7 +564,7 @@ cloud animation */
 		opacity: .25;
 	}
 	15% {
-		opacity: .5
+		opacity: .5;
 	}
     25% {
         opacity: 1;
@@ -473,13 +572,37 @@ cloud animation */
     50% {
         opacity: .5;
     }
-    100% {
+    89% {
         opacity: .8;
     }
+	95% {
+		opacity: .25;
+	}
+	100% {
+		opacity: 0;
+	}
   }
+@keyframes slideinLeft2 {
+	0% {
+		left: -200px;
+		opacity: 1;
+	}
+	30% {
+		opacity: .40;
+	}
+	60% {
+		opacity: .90;
+	}
+	90% {
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
 @keyframes slideinRight {
 	0% {
-        left: 1000px;
+        left: 825px;
 		opacity: 0;
 	}
     15% {
@@ -525,7 +648,12 @@ cloud animation */
 	transition: 1.5s ease;
 }
 .about-section {
-	background: #468FAF;
+	background: radial-gradient(
+        ellipse at top, 
+        rgb(177, 109, 20) 0%, 
+        rgb(52, 136, 125) 18%,
+		rgb(60, 21, 105) 75%,
+        rgb(27, 21, 110) 100%);
 	position: relative;
 	z-index: 4;
 }
@@ -537,8 +665,9 @@ cloud animation */
 	margin: 10px;
 }
 .screenshot-box:hover {
-	opacity: 70%;
+	opacity: 85%;
 	border-width: 10px;
+	border-style: inset;
 	transition: .5s ease-in;
 }
 /* you are just trying to do too much because the idea seems simple in my head but it clearly is not */
@@ -561,13 +690,15 @@ cloud animation */
 } */
 
 .project-section1 {
-	background-color: #2A6F97;
+	/* background-color: #2A6F97; */
+	background-color: rgb(27, 21, 110);
+	/* background-color: rgb(60, 21, 105); */
 }
 .project-section1 h2, .project-section1 p {
 	color: #EBE9E9;
 }
 .project-section2 {
-	background-color: #2A6F97;
+	background-color: rgb(27, 21, 110);
 }
 .project-section2 h2, .project-section2 p {
 	color: whitesmoke;
@@ -587,9 +718,53 @@ cloud animation */
 	background-color: #2B3035;
 }
 .colophon {
+	padding-top: 50px;
 	color: #EBE9E9;
+}
+#name {
+	color:hsla(333, 100%, 53%, 1)
+}
+.social-list {
+	padding-top: 40px;
+}
+.icon-github, .icon-linkedin, .icon-twitter, .icon-free-code-camp, .icon-reddit {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	color: gray;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+}
+.nav-link:hover {
+	color:hsla(334, 59%, 60%);
+	transition: 1.5s ease;
 }
 /* CLOSE FOOTER */
 
+
+
+/* ICONS SECTION */
+
+/* .icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+  } */
+  
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+	font-size: 32px;
+	color: red;
+  }
+  ========================================== */
+  
+  /* .icon-free-code-camp {
+	width: 1.2861328125em;
+  } */
 /* ************************************************************************************************ */
 /* Projects Page */
