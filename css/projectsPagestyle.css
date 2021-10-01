@@ -52,7 +52,24 @@ body {
 		
 	}
 } */
-
+.projects-logo {
+	margin: 0 auto;
+}
+.img-logo {
+	width: 500px;
+}
+#umbrella-block {
+	background-color: #f9f9f9;
+}
+#bloom-block {
+	background-color: #23262a;
+}
+#detroix-block {
+	background-color: #f2f3f5;
+}
+#restaurant-block {
+	background-color: #e74b43;
+}
 /* CLOSE MAIN */
 /* FOOTER */
 .footer {

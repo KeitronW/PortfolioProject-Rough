@@ -382,7 +382,7 @@ body {
   	width: 100%;
 	max-width: 400px;
   	border: 1px solid orange;
-  	background-image: radial-gradient(circle, hsla(33, 94%, 57%, 1) 35%, hsla(333, 100%, 53%, 1) 100%);;
+  	background-image: radial-gradient(circle, hsla(33, 94%, 57%, 1) 35%, hsla(333, 100%, 53%, 1) 100%);
   	border-radius: 50%;
 	margin: 0 auto;
 	position: absolute;
@@ -711,6 +711,9 @@ cloud animation */
 .project-row5 {
 	margin-top: 30px;
 }
+
+
+
 /* CLOSE MAIN */
 
 /* FOOTER */
@@ -736,6 +739,10 @@ cloud animation */
 	stroke: currentColor;
 	fill: currentColor;
 }
+  
+/* .icon-free-code-camp {
+	width: 5em;
+  } */
 .nav-link:hover {
 	color:hsla(334, 59%, 60%);
 	transition: 1.5s ease;
@@ -762,9 +769,6 @@ cloud animation */
 	color: red;
   }
   ========================================== */
-  
-  /* .icon-free-code-camp {
-	width: 1.2861328125em;
-  } */
+
 /* ************************************************************************************************ */
 /* Projects Page */
