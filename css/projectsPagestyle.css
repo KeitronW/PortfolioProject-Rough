@@ -28,6 +28,12 @@ body {
 .projects-section {
 	background-color: rgb(27, 21, 110);
 }
+.projects-section h3 {
+	display: none;
+}
+.project-body {
+	border: none;
+}
 .screenshot{
 	width: 20rem;
 	height: 20rem;
@@ -43,32 +49,64 @@ body {
 	border-style: inset;
 	transition: .5s ease-in;
 }
-/* @media (max-width: 577px) {
-	.screenshot{
-		width: 25rem;
-		height: 25rem;
-	}
-	.card-body {
-		
-	}
-} */
+/* fonts for logos
+
+font-family: 'Pattaya', sans-serif; (aditii)
+font-family: 'Sacramento', cursive; (bloom)
+font-family: 'Urbanist', sans-serif; (graphics umbrella)*/
 .projects-logo {
 	margin: 0 auto;
 }
 .img-logo {
 	width: 500px;
 }
+#venedor-block {
+	border-bottom: 5px solid #14bfcc;
+}
+#aditii-logo {
+	font-family: 'Pattaya', sans-serif;
+	font-size: 10rem;
+	color: #44b4a1;
+}
+#aditii-block {
+	border-bottom: 5px solid #44b4a1;
+}
 #umbrella-block {
-	background-color: #f9f9f9;
+	border-bottom: 5px solid #a0c63f;
+}
+#umbrella-logo {
+	font-family: 'Urbanist', sans-serif;
+	font-size: 3rem;
+	width: fit-content;
+}
+#graphics-word {
+	color: #a0c63f;
+}
+#bloom-logo {
+	font-family: 'Sacramento', cursive;
+	font-size: 4rem;
+	color: #23262a;
 }
 #bloom-block {
-	background-color: #23262a;
+	border-bottom: 5px solid palevioletred;
 }
 #detroix-block {
-	background-color: #f2f3f5;
+	/* background-color: #f2f3f5; */
+	border-bottom: 5px solid #ff8810;
+}
+#detroix-logo {
+	color: #1a2952;
+	font-family: 'Lobster', cursive;
+	font-size: 9rem;
 }
 #restaurant-block {
-	background-color: #e74b43;
+	border-bottom: 5px solid #e74b43;
+}
+#restaurant-logo {
+	font-weight: 800;
+	font-size: 5rem;
+	/* color: #fff8ce; */
+	color: #e0463c;
 }
 /* CLOSE MAIN */
 /* FOOTER */
