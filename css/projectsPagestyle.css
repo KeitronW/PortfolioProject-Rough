@@ -25,35 +25,91 @@ body {
 }
 /* CLOSE HEADER */
 /* MAIN */
-.projects-section {
-	background-color: rgb(27, 21, 110);
+.main {
+	background-color: #6d6875;
+	border-top: 1px solid hsla(334, 59%, 60%);
+}
+.project-section3 {
+	border-bottom: 3px solid silver;
 }
 .projects-section h3 {
 	display: none;
 }
 .project-body {
 	border: none;
+	background-color: silver;
+	padding: 5px;
 }
+
 .screenshot{
 	width: 20rem;
 	height: 20rem;
 	max-width: 100%;
 }
+
 .screenshot-box {
-	border: 2px solid silver;
 	margin: 10px;
 }
 .screenshot-box:hover {
-	opacity: 85%;
-	border-width: 10px;
-	border-style: inset;
-	transition: .5s ease-in;
+	/* opacity: 85%; */
+	border-width: 5px;
+	transition: .2s ease-in;
 }
-/* fonts for logos
 
-font-family: 'Pattaya', sans-serif; (aditii)
-font-family: 'Sacramento', cursive; (bloom)
-font-family: 'Urbanist', sans-serif; (graphics umbrella)*/
+#detroix-image:hover {
+	border: 3px solid #ff8810;
+	border-style: outset;
+}
+#bloom-image:hover {
+	border: 3px solid palevioletred;
+	border-style: outset;
+}
+#umbrella-image:hover {
+	border: 3px solid #a0c63f;
+	border-style: outset;
+}
+#restaurant-image:hover{
+	border: 3px solid #e74b43;
+	border-style: outset;
+}
+#venedor-image:hover {
+	border: 3px solid #14bfcc;
+	border-style: outset;
+}
+#aditii-image:hover {
+	border: 3px solid #44b4a1;
+	border-style: outset;
+}
+
+#detroix-title {
+	border-bottom: 3px solid #ff8810;
+}
+#bloom-title {
+	border-bottom: 3px solid palevioletred;
+}
+#aditii-title {
+	border-bottom: 3px solid #44b4a1;
+}
+#venedor-title {
+	border-bottom: 3px solid #14bfcc;
+}
+#umbrella-title {
+	border-bottom: 3px solid #a0c63f;
+}
+#restaurant-title {
+	border-bottom: 3px solid #e74b43;
+}
+
+/* 10/4 well this didn't work..... */
+/* .projects-title:nth-child(1) {
+	border-bottom: 2px solid #ff8810;
+}
+.projects-title:nth-child(2) {
+	border-bottom: 9px solid palevioletred;
+} */
+.project-section1 h2, .project-section1 p {
+	color: #EBEBEB;
+}
 .projects-logo {
 	margin: 0 auto;
 }
@@ -62,6 +118,7 @@ font-family: 'Urbanist', sans-serif; (graphics umbrella)*/
 }
 #venedor-block {
 	border-bottom: 5px solid #14bfcc;
+	background-color: #f1faee;
 }
 #aditii-logo {
 	font-family: 'Pattaya', sans-serif;
@@ -70,9 +127,11 @@ font-family: 'Urbanist', sans-serif; (graphics umbrella)*/
 }
 #aditii-block {
 	border-bottom: 5px solid #44b4a1;
+	background-color: #f1faee;
 }
 #umbrella-block {
 	border-bottom: 5px solid #a0c63f;
+	background-color: #f1faee;
 }
 #umbrella-logo {
 	font-family: 'Urbanist', sans-serif;
@@ -89,10 +148,11 @@ font-family: 'Urbanist', sans-serif; (graphics umbrella)*/
 }
 #bloom-block {
 	border-bottom: 5px solid palevioletred;
+	background-color: #f1faee;
 }
 #detroix-block {
-	/* background-color: #f2f3f5; */
 	border-bottom: 5px solid #ff8810;
+	background-color: #f1faee;
 }
 #detroix-logo {
 	color: #1a2952;
@@ -101,12 +161,26 @@ font-family: 'Urbanist', sans-serif; (graphics umbrella)*/
 }
 #restaurant-block {
 	border-bottom: 5px solid #e74b43;
+	background-color: #f1faee;
 }
 #restaurant-logo {
 	font-weight: 800;
 	font-size: 5rem;
 	/* color: #fff8ce; */
 	color: #e0463c;
+}
+.personal-text {
+	border: 1px solid black;
+}
+.icon-wondering, .icon-sad, .icon-smile, .icon-crying, .icon-neutral {
+	width: 3em;
+	height: 3em;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+}
+.icon-wondering:hover {
+	display: contents;
 }
 /* CLOSE MAIN */
 /* FOOTER */

@@ -1,0 +1,79 @@
+
+        <section class="project-section1" id="Projects">
+            <!-- 9/21 I don't want this to be a stagnant section. I want the project section to display as a carousel on larger devices but then turn into cards on the smaller devices... I think that would look good... ok i think a carousel was a bad idea-->
+            <div class="container d-none d-lg-block">
+                <!-- 9/22 i think that using ULs will be helpful when it comes to the sections -->
+                <div class="row d-inline">
+                    <div class="d-inline col-md-4 justify-content-around">
+                        <div class="row project-row1">
+                            <div class="col-4">
+                                <a href="https://github.com/fancyf33t/Detroix.git" target="_blank"><img src="media/detroixScreenshot-rough.png" alt="Detroix placeholder" class="screenshot-box img-fluid" id="detroix-image" ></a>
+                            </div>
+                            <div class="col-7">
+                                <h2 class="projects-title">Project: Detroix</h2>
+                                <p class="project-text">This was the first project I had to complete in the Mississippi Coding Academy. After staring at this man's face for so long, he started to no longer look like a person. The biggest challenge of this particular project was understanding the importance of divs and classes. Blah blah...</p>
+                            </div>
+                        </div>
+                        <div class="row project-row2">
+                            <div class="col-4">
+                                <a href="https://github.com/fancyf33t/Bloom.git" target="_blank"><img src="media/bloomScreenshot-rough.png" alt="Bloom placeholder" class="screenshot-box img-fluid"></a>
+                            </div>
+                            <div class="col-8">
+                                <h2 class="projects-title">Project: Bloom</h2>
+                                <p class="project-text">This project did not give me as much trouble as I originally thought it would. It was my first time having to use a linear gradient (which I never figured out). I struggled with using margin-padding-float at first but with practice it eventually came together. I believe at this point in my education I was more comfortable with position and flex-box. My use of svg icons was lacking in application.</p>
+                            </div>
+                        </div>
+                        <div class="row project-row3">
+                            <div class="col-4">
+                                <a href="https://github.com/KeitronW/Umbrella-Bootstrap.git" target="_blank"><img src="media/umbrellaScreenshot-rough.png" alt="Umbrella placeholder" class="screenshot-box img-fluid"></a>
+                            </div>
+                            <div class="col-8">
+                                <h2 class="projects-title">Project: Umbrella</h2>
+                                <p class="project-text">This was the first project I had to complete in the Mississippi Coding Academy. After staring at this man's face for so long, he started to no longer look like a person. The biggest challenge of this particular project was understanding the importance of divs and classes. Blah blah...</p>
+                            </div>
+                        </div>
+                        <div class="row project-row4">
+                            <div class="col-4">
+                                <a href="https://github.com/KeitronW/Venedor.git" target="_blank"><img src="media/venedorScreenshot-rough.png" alt="Venedor placeholder" class="screenshot-box img-fluid"></a>
+                            </div>
+                            <div class="col-8">
+                                <h2 class="projects-title">Project: Venedor</h2>
+                                <p class="project-text">This was the first project I had to complete in the Mississippi Coding Academy. After staring at this man's face for so long, he started to no longer look like a person. The biggest challenge of this particular project was understanding the importance of divs and classes. Blah blah...</p>
+                            </div>
+                        </div>
+                        <div class="row project-row5">
+                            <div class="col-4">
+                                <a href="https://github.com/KeitronW/Restaurant-Bootstrap.git"><img src="media/restaurantScreenshot-rough.png" alt="Restaurant placeholder" class="screenshot-box img-fluid"></a>
+                            </div>
+                            <div class="col-8">
+                                <h2 class="projects-title">Project: Restaurant</h2>
+                                <p class="project-text">This was the first project I had to complete in the Mississippi Coding Academy. After staring at this man's face for so long, he started to no longer look like a person. The biggest challenge of this particular project was understanding the importance of divs and classes. Blah blah...</p>
+                            </div>
+                        </div>
+                        <div class="row project-row6">
+                            <div class="col-4">
+                                <a href="https://github.com/fancyf33t/Aditii.git" target="_blank"><img src="media/aditiiScreenshot-rough.png" alt="Aditii placeholder" class="screenshot-box img-fluid"></a>
+                            </div>
+                            <div class="col-8">
+                                <h2 class="projects-title">Project: Aditii</h2>
+                                <p class="project-text">This was the first project I had to complete in the Mississippi Coding Academy. After staring at this man's face for so long, he started to no longer look like a person. The biggest challenge of this particular project was understanding the importance of divs and classes. Blah blah...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project-section2">
+            <div class="container d-lg-none">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="projects-title">What I have done!</h2>
+                        <p class="project-text">I have completed a few template projects to get an idea of what it will really be like to be a junior developer.</p>
+                        <p class="project-text">Just click below to see my work.</p>
+                        <div class="page-turner">
+                            <a href="projectsPage.html">See work</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
