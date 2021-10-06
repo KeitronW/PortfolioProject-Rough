@@ -698,7 +698,7 @@ cloud animation */
 	padding-bottom: 25px;
 }
 .new-box {
-	border-bottom: 1px solid hsla(334, 59%, 60%);
+	border-bottom: 2px solid hsla(334, 59%, 60%);
 }
 .new-section h3, .new-projects h3, .contact-section h3 {
 	color: silver;
@@ -851,6 +851,28 @@ cloud animation */
 	background-color: #4a4f55;
 	color: silver;
 }
+
+.headshot-section {
+	padding: 20px;
+}
+
+.resume-button {
+	border-radius: 5px;
+	background-color: #4a4f55;
+	border: 2px solid hsla(333, 100%, 53%, 1);
+	position: absolute;
+	right: 250px;
+}
+.button-link {
+	color: hsla(333, 100%, 53%, 1);
+	text-decoration: none;
+}
+.button-link:hover {
+	color: hsla(333, 100%, 53%, 1);
+	font-size: larger;
+	text-decoration: none;
+	transition: 1s ease;
+}
 @keyframes textRight {
 	0%{
 		right: 250px;
@@ -864,11 +886,11 @@ cloud animation */
 	100%{}
 }
 .word-block {
-	border: 1px solid blue;
 	position: relative;
-	right: 25px;
+	top: 150px;
+	right: 5px;
 	animation-name: textRight;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-iteration-count: once;
 }
 @keyframes pictureLeft {
@@ -891,15 +913,23 @@ cloud animation */
 }
 
 .keitron-image {
-	border: 5px solid red;
 	position: relative;
 	left: 50px;
 	animation-name: pictureLeft;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-iteration-count: once;
+}
+.coding-subheader, .personal-subheader, .hobbies-subheader {
+	border-bottom: 2px solid hsla(333, 100%, 53%, 1);
 }
 .science-link {
 	color: hsla(333, 100%, 53%, 1);
+}
+.science-link:hover {
+	color: hsla(333, 100%, 53%, 1);
+	font-size: larger;
+	text-decoration: none;
+	transition: 1s ease;
 }
 
 
