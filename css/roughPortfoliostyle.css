@@ -394,7 +394,7 @@ body {
 	margin: 0 auto;
 	position: absolute;
 	top: 150px;
-	left: 38%;
+	left: 34%;
 	z-index: 3;
 	animation-name: sundown;
 	animation-duration: 4s;
@@ -642,9 +642,11 @@ cloud animation */
 .top-nav-section {
 	background: #2B3035;
 }
+.top-nav-bar {
+	padding-bottom: 5px;
+}
 .top-nav-bar-item {
 	font-size: 25px;
-	
 }
 .nav-bar-link {
 	color: gray;
@@ -666,7 +668,9 @@ cloud animation */
 	border-bottom: 5px solid silver;
 	color: silver;
 }
-.about-section text 
+.about-subheader {
+	padding-top: 15px;
+}
 /* CLOSE HEADER */
 
 /* MAIN */
