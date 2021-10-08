@@ -534,3 +534,29 @@ font-family: 'Urbanist', sans-serif; (graphics umbrella)*/
                 </div>
             </div>
         </section>
+
+
+
+Fonts to store:
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Miriam Libre', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Miriam+Libre&family=Roboto&family=Roboto+Mono&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+start with about
+make sure to emphasize keyframe animation with html, css, and bootstrap

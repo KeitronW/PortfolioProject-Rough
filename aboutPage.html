@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Miriam+Libre&family=Roboto&family=Roboto+Mono&family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/roughPortfoliostyle.css">
-    <title>Portfolio: Rough</title>
+    <title>Portfolio: KeitronW</title>
 </head>
 <body>
     <header class="header" id="header">
@@ -19,7 +22,7 @@
                         <!-- 9/18 will this list be a simple dropdown? i guess it can't be since i need them to link to other sections. nevermind....  -->
                         <nav class="top-nav-bar">
                             <ul class="nav top-nav-list justify-content-around">
-                                <li class="top-nav-bar-item"><a href="roughPortfolio.html" class="nav-bar-link" id="Home-top">Home</a></li>
+                                <li class="top-nav-bar-item"><a href="index.html" class="nav-bar-link" id="Home-top">Home</a></li>
                                 <!-- 9/29 maybe this will look alright. i don't exactly need these on my nav bar -->
                                 <li class="top-nav-bar-item"><a href="#About-me" class="nav-bar-link">About</a></li>
                                 <!-- <li class="top-nav-bar-item"><a href="#Bio" class="nav-bar-link">Bio</a></li> -->
@@ -49,6 +52,19 @@
                         </div>
                     </div>
                 </div>
+                <div class="row d-none">
+                    <div class="col-12">
+                        <h3 class="headshot-title">Thanks for visiting my page!!</h3>
+                        <p class="headshot-text">Feel free to download my resume. I am always looking to make connections.</p>
+                        <p class="headshot-text">If you want to know a bit more about me, scroll down for the highlights</p>
+                        <button class="resume-button"><a href="KeitronWallace_Resume.rtf" class="button-link">resume</a></button>
+                    </div>
+                    <div class="col-12">
+                        <div class="keitron-image">
+                            <img src="media/headshot.png" class="img-fluid" alt="Picture of Keitron Wallace">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="coding-section">
@@ -58,7 +74,7 @@
                         <h2 class="coding-subheader">As a programmer</h2>
                     </div>
                     <div class="col-12">
-                        <p class="coding-text">I have always had a strong interest in science and futurism. Listening to <a href="https://soundcloud.com/isaac-arthur-148927746" class="science-link">Isaac Arthur</a> and <a href="https://www.youtube.com/c/ColdFusion" class="science-link">ColdFusionTV</a>  has aided me in expanding my worldview. Technology is as much the present as it is the future. I don't want to just be a consumer. I want to learn how I can make technology work for me and start a new career.</p>
+                        <p class="coding-text text-justify">I have always had a strong interest in science and futurism. Listening to <a href="https://soundcloud.com/isaac-arthur-148927746" class="science-link" target="_blank">Isaac Arthur</a> and <a href="https://www.youtube.com/c/ColdFusion" class="science-link" target="_blank">ColdFusionTV</a>  has aided me in expanding my worldview. Watching the videos made by <a href="https://www.youtube.com/user/melodysheep" class="science-link" target="_blank">Melodysheep</a> put my existence in the universe into perspective. Technology is as much the present as it is the future and life is too fleeting to be concerned with failure. I don't want to just be a consumer. I don't want scientific understanding to be beyond my comprehension. I want to learn how I can make technology work for me and start a new career.</p>
                     </div>
                 </div>
             </div>
@@ -70,7 +86,7 @@
                         <h2 class="personal-subheader">As a person</h2>
                     </div>
                     <div class="col-12">
-                        <p class="personal-text">Growing up as a military brat meant that my surroundings were always changing. Since I was never in one place for too long, I have struggled with finding peer groups that share my interests and values. Attending the Mississippi Coding Academy has shown me the importance of having like-minded individuals in close proximity when it comes to a learning environment. That does not mean that we all think the same, but being able to show up in class and bounce ideas off one another has helped me grow immensely as a coder - and I have only just begun.</p>
+                        <p class="personal-text text-justify">Growing up as a military brat meant that my surroundings were always changing. Since I was never in one place for too long, I have struggled with finding peer groups that share my interests and values. Attending the Mississippi Coding Academy has shown me the importance of having like-minded individuals in close proximity when it comes to a learning environment. That does not mean that we all think the same, but being able to show up in class and bounce ideas off one another has helped me grow immensely as a coder - and I have only just begun.</p>
                     </div>
                 </div>
             </div>
@@ -82,18 +98,43 @@
                         <h2 class="hobbies-subheader">Activities outside of programming</h2>
                     </div>
                     <div class="col-12">
-                        <p class="hobbies-text">Since I spend a great deal of my time in a chair, I prefer my extra curricular activities to involve dynamic movement. Hiking, sports, general exercise are all activities that I enjoy. I also like to keep my mind sharp by playing extensive amounts of chess. Chess has been something that helps my brain see solutions from a different angle. Look below for some of my games. I'm not that good at chess, but it relaxes me all the same.</p>
-                        <div class="row">
-                            <div class="col-6"><p class="hobbies-text"><iframe src="https://lichess.org/embed/WurM7izc?theme=auto&bg=auto"
-                            width=400 height=300 frameborder=0></iframe></p></div>
-                            <div class="col-6"><p class="hobbies-text"><iframe src="https://lichess.org/embed/lnDlkV26#95?theme=auto&bg=auto"
-                                width=400 height=300 frameborder=0></iframe></p></div>
-                            <div class="col-6"><p class="hobbies-text"><iframe src="https://lichess.org/embed/795z2vxu?theme=auto&bg=auto"
-                            width=400 height=300 frameborder=0></iframe></p></div>
+                        <p class="hobbies-text text-justify">Since I spend a great deal of my time in a chair, I prefer my extra curricular activities to involve dynamic movement. Hiking, sports, general exercise are all activities that I enjoy. I also like to keep my mind sharp by playing extensive amounts of chess. Chess has been something that helps my brain see solutions from a different angle. It is a deceptively easy game to comprehend, but extremely humbling in its complexity. I have a personal goal of reaching a master rating in chess. I am a long way off from that goal, but I make it a point to improve my chess play at least 1% each day. Look below at some of my games. I'm not that good at the, but it relaxes me all the same.</p>
+                        <div class="row d-none d-md-flex justify-content-around">
+                            <div class="col-6">
+                                <p class="hobbies-text"><iframe src="https://lichess.org/embed/FJDo5A9h#0?theme=auto&bg=auto"
+                                width=400 height=300 frameborder=0></iframe></p>
+                            </div>
+                            <div class="col-6">
+                                <p class="hobbies-text"><iframe src="https://lichess.org/embed/lnDlkV26#95?theme=auto&bg=auto"
+                                width=400 height=300 frameborder=0></iframe></p>
+                            </div>
+                        </div>
+                        <div class="row d-none d-md-flex">
+                            <div class="col-6">
+                                <p class="hobbies-text"><iframe src="https://lichess.org/embed/795z2vxu?theme=auto&bg=auto"
+                                width=400 height=300 frameborder=0></iframe></p>
+                            </div>
                             <div class="col-6">
                                 <p class="hobbies-text"><iframe src="https://lichess.org/embed/YwVBwqz7?theme=auto&bg=auto"
-                                    width=400 height=300 frameborder=0></iframe>
-                                    </p>
+                                width=400 height=300 frameborder=0></iframe></p>
+                            </div>
+                        </div>
+                        <div class="row d-md-none d-lg-none">
+                            <div class="col-12 d-flex justify-content-center">
+                                <p class="hobbies-text"><iframe src="https://lichess.org/embed/FJDo5A9h#0?theme=auto&bg=auto"
+                                width=400 height=300 frameborder=0></iframe></p>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center">
+                                <p class="hobbies-text"><iframe src="https://lichess.org/embed/lnDlkV26#95?theme=auto&bg=auto"
+                                width=400 height=300 frameborder=0></iframe></p>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center">
+                                <p class="hobbies-text"><iframe src="https://lichess.org/embed/795z2vxu?theme=auto&bg=auto"
+                                width=400 height=300 frameborder=0></iframe></p>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center">
+                                <p class="hobbies-text"><iframe src="https://lichess.org/embed/YwVBwqz7?theme=auto&bg=auto"
+                                width=400 height=300 frameborder=0></iframe></p>
                             </div>
                         </div>
                     </div>
@@ -106,9 +147,8 @@
             <div class="row">
                 <div class="d-inline col-md-4 d-md-flex justify-content-center">
                     <ul class="nav flex-md-column bottom-nav-bar-list justify-content-around">
-                        <li class="bottom-nav-bar-item"><a href="#Home-top" class="nav-bar-link">Home</a></li>
+                        <li class="bottom-nav-bar-item"><a href="index" class="nav-bar-link">Home</a></li>
                         <li class="bottom-nav-bar-item"><a href="#About-me" class="nav-bar-link">About</a></li>
-                        <!-- <li class="bottom-nav-bar-item"><a href="#Bio" class="nav-bar-link">Bio</a></li> -->
                         <li class="bottom-nav-bar-item"><a href="#Projects" class="nav-bar-link">Projects</a></li>
                         <li class="bottom-nav-bar-item"><a href="#" class="nav-bar-link">Contacts</a></li>
                     </ul>
