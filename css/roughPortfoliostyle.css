@@ -141,6 +141,9 @@ body {
 		opacity: 0;
 	}
 }
+.animatedStars {
+	margin-left: 200px;
+}
 /* don't forget your random number generator */
 #star1 {
 	top: 86px;

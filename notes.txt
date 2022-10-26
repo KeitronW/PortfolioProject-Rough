@@ -560,3 +560,5 @@ font-family: 'Source Code Pro', monospace;
 
 start with about
 make sure to emphasize keyframe animation with html, css, and bootstrap
+
+https://www.freecodecamp.org/settings tribute cert complete. next is survey
